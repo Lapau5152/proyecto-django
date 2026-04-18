@@ -45,12 +45,12 @@ striped">
 		{% for alumno in 8A %}
 		<tr>
 			<td class="text-center">
-				<img src="{{ alumno.imagen.url }}" alt="" class="img-media">
+				<img src="{{ alumno.imagen.url }}" alt="Foto del alumno  {{ alumno.nombre }}" class="img-media">
 			</td>
 			<td class="text-semibold">{{ alumno.matricula }}</td>
-			<td class=muted>{{ alumno.nombre }}</td>
-			<td class=muted>{{ alumno.carrera }}</td>
-			<td class=muted>{{ alumno.turno }}</td>
+			<td class="muted">{{ alumno.nombre }}</td>
+			<td class="muted">{{ alumno.carrera }}</td>
+			<td class="muted">{{ alumno.turno }}</td>
 		</tr>
 		{% endfor %}
 	</tbody>
