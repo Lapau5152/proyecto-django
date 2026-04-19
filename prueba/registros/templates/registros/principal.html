@@ -45,7 +45,7 @@ striped">
 		{% for alumno in 8A %}
 		<tr>
 			<td class="text-center">
-				<img src="{{ alumno.imagen.url }}" alt="Foto del alumno  {{ alumno.nombre }}" class="img-media">
+				<img src="{{ alumno.imagen.url }}" alt="Foto del alumno  {{ alumno.nombre }}" loading="lazy" class="img-media">
 			</td>
 			<td class="text-semibold">{{ alumno.matricula }}</td>
 			<td class="muted">{{ alumno.nombre }}</td>
