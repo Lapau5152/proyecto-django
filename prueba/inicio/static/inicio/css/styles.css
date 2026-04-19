@@ -6453,12 +6453,8 @@ li.plupload_droptext {
 }
 
 body {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.table {
-    color: #000000;
+    background: #fff;
+    color: #000;
 }
 
 .text-muted {
